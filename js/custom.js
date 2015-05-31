@@ -14,6 +14,9 @@ var customScripts = {
                     columnWidth: $container.width() / $resize
                 }
             });
+			$container.imagesLoaded().always(function() {
+				$container.isotope('reLayout');
+			});
             $("a[href='#top']").click(function () {
                 $("html, body").animate({ scrollTop: 0 }, "slow");
                 return false;
