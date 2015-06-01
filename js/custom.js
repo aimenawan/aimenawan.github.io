@@ -14,7 +14,7 @@ var customScripts = {
                     columnWidth: $container.width() / $resize
                 }
             });
-			$container.imagesLoaded().always(function() {
+			$container.imagesLoaded().progress(function() {
 				$container.isotope('reLayout');
 			});
             $("a[href='#top']").click(function () {
