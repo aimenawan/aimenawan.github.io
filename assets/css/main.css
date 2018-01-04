@@ -2762,16 +2762,16 @@
 			}
 
 			.tiles article:hover {
-				color: transparent;
+				/* color: transparent; */
 			}
             .tiles article:hover h3 a {
-				color: transparent;
+				/* color: transparent; */
 			}
             .tiles article:hover h3:after {
-                background-color: transparent;
+                /* background-color: transparent; */
 			}
 			.tiles article:hover:before {
-				opacity: 0;
+				opacity: 0.0;
 			}
 
 			.tiles article.is-transitioning {
